@@ -27,13 +27,11 @@ extension Instantiable {
     }
 }
 
-// MARK: - USAGE Guide
-
 // MARK: - Instantiable
-extension QRScannerVC: Instantiable {
-
-    static var storyboard: UIStoryboard {
-        UIStoryboard.main
-    }
-}
+//extension QRScannerVC: Instantiable {
+//
+//    static var storyboard: UIStoryboard {
+//        UIStoryboard.main
+//    }
+//}
 

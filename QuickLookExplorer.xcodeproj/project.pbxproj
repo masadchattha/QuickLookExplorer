@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1792232B31FFD000A7E299 /* UIView + TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1792222B31FFD000A7E299 /* UIView + TapGesture.swift */; };
 		DCC702442B2DE2D5005162CA /* Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC702432B2DE2D5005162CA /* Instantiable.swift */; };
 		DCC702472B2DE2E1005162CA /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC702452B2DE2E1005162CA /* UIStoryboard+Extension.swift */; };
 		DCC702482B2DE2E1005162CA /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC702462B2DE2E1005162CA /* Collection+Extension.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC1792222B31FFD000A7E299 /* UIView + TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + TapGesture.swift"; sourceTree = "<group>"; };
 		DCC702432B2DE2D5005162CA /* Instantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiable.swift; sourceTree = "<group>"; };
 		DCC702452B2DE2E1005162CA /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
 		DCC702462B2DE2E1005162CA /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				DCC702462B2DE2E1005162CA /* Collection+Extension.swift */,
+				DC1792222B31FFD000A7E299 /* UIView + TapGesture.swift */,
 				DCC702452B2DE2E1005162CA /* UIStoryboard+Extension.swift */,
 			);
 			path = Extensoins;
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1792232B31FFD000A7E299 /* UIView + TapGesture.swift in Sources */,
 				DCFD7FD12B2B7FE200D64476 /* ViewController.swift in Sources */,
 				DCC702482B2DE2E1005162CA /* Collection+Extension.swift in Sources */,
 				DCFD7FCD2B2B7FE200D64476 /* AppDelegate.swift in Sources */,
