@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1792232B31FFD000A7E299 /* UIView + TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1792222B31FFD000A7E299 /* UIView + TapGesture.swift */; };
+		DCC702442B2DE2D5005162CA /* Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC702432B2DE2D5005162CA /* Instantiable.swift */; };
+		DCC702472B2DE2E1005162CA /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC702452B2DE2E1005162CA /* UIStoryboard+Extension.swift */; };
+		DCC702482B2DE2E1005162CA /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC702462B2DE2E1005162CA /* Collection+Extension.swift */; };
+		DCEA93842B3494840024CE0E /* Doc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DCEA93832B3494840024CE0E /* Doc.pdf */; };
+		DCEA93862B349EDC0024CE0E /* Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCEA93852B349EDC0024CE0E /* Photo.jpg */; };
 		DCFD7FCD2B2B7FE200D64476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD7FCC2B2B7FE200D64476 /* AppDelegate.swift */; };
 		DCFD7FCF2B2B7FE200D64476 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD7FCE2B2B7FE200D64476 /* SceneDelegate.swift */; };
 		DCFD7FD12B2B7FE200D64476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD7FD02B2B7FE200D64476 /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC1792222B31FFD000A7E299 /* UIView + TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + TapGesture.swift"; sourceTree = "<group>"; };
+		DCC702432B2DE2D5005162CA /* Instantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiable.swift; sourceTree = "<group>"; };
+		DCC702452B2DE2E1005162CA /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		DCC702462B2DE2E1005162CA /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		DCEA93832B3494840024CE0E /* Doc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Doc.pdf; sourceTree = "<group>"; };
+		DCEA93852B349EDC0024CE0E /* Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo.jpg; sourceTree = "<group>"; };
 		DCFD7FC92B2B7FE200D64476 /* QuickLookExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickLookExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFD7FCC2B2B7FE200D64476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCFD7FCE2B2B7FE200D64476 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +49,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DCC7023C2B2DE1FE005162CA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD7FCC2B2B7FE200D64476 /* AppDelegate.swift */,
+				DCFD7FCE2B2B7FE200D64476 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DCC7023D2B2DE20E005162CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD7FD02B2B7FE200D64476 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DCC7023E2B2DE228005162CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD7FD22B2B7FE200D64476 /* Main.storyboard */,
+				DCFD7FD72B2B7FE300D64476 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCC7023F2B2DE238005162CA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD7FD52B2B7FE300D64476 /* Assets.xcassets */,
+				DCEA93852B349EDC0024CE0E /* Photo.jpg */,
+				DCEA93832B3494840024CE0E /* Doc.pdf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DCC702402B2DE245005162CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCC702412B2DE27D005162CA /* Extensoins */ = {
+			isa = PBXGroup;
+			children = (
+				DCC702462B2DE2E1005162CA /* Collection+Extension.swift */,
+				DC1792222B31FFD000A7E299 /* UIView + TapGesture.swift */,
+				DCC702452B2DE2E1005162CA /* UIStoryboard+Extension.swift */,
+			);
+			path = Extensoins;
+			sourceTree = "<group>";
+		};
+		DCC702422B2DE28E005162CA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DCC702432B2DE2D5005162CA /* Instantiable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		DCFD7FC02B2B7FE200D64476 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +129,13 @@
 		DCFD7FCB2B2B7FE200D64476 /* QuickLookExplorer */ = {
 			isa = PBXGroup;
 			children = (
-				DCFD7FCC2B2B7FE200D64476 /* AppDelegate.swift */,
-				DCFD7FCE2B2B7FE200D64476 /* SceneDelegate.swift */,
-				DCFD7FD02B2B7FE200D64476 /* ViewController.swift */,
-				DCFD7FD22B2B7FE200D64476 /* Main.storyboard */,
-				DCFD7FD52B2B7FE300D64476 /* Assets.xcassets */,
-				DCFD7FD72B2B7FE300D64476 /* LaunchScreen.storyboard */,
+				DCC7023C2B2DE1FE005162CA /* App */,
+				DCC7023F2B2DE238005162CA /* Assets */,
+				DCC702422B2DE28E005162CA /* Utilities */,
+				DCC702412B2DE27D005162CA /* Extensoins */,
+				DCC702402B2DE245005162CA /* Models */,
+				DCC7023E2B2DE228005162CA /* Views */,
+				DCC7023D2B2DE20E005162CA /* Controllers */,
 				DCFD7FDA2B2B7FE300D64476 /* Info.plist */,
 			);
 			path = QuickLookExplorer;
@@ -125,7 +199,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEA93862B349EDC0024CE0E /* Photo.jpg in Resources */,
 				DCFD7FD92B2B7FE300D64476 /* LaunchScreen.storyboard in Resources */,
+				DCEA93842B3494840024CE0E /* Doc.pdf in Resources */,
 				DCFD7FD62B2B7FE300D64476 /* Assets.xcassets in Resources */,
 				DCFD7FD42B2B7FE200D64476 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +214,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1792232B31FFD000A7E299 /* UIView + TapGesture.swift in Sources */,
 				DCFD7FD12B2B7FE200D64476 /* ViewController.swift in Sources */,
+				DCC702482B2DE2E1005162CA /* Collection+Extension.swift in Sources */,
 				DCFD7FCD2B2B7FE200D64476 /* AppDelegate.swift in Sources */,
 				DCFD7FCF2B2B7FE200D64476 /* SceneDelegate.swift in Sources */,
+				DCC702442B2DE2D5005162CA /* Instantiable.swift in Sources */,
+				DCC702472B2DE2E1005162CA /* UIStoryboard+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
