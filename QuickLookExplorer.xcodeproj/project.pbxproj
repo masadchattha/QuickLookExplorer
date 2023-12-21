@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1792232B31FFD000A7E299 /* UIView + TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1792222B31FFD000A7E299 /* UIView + TapGesture.swift */; };
 		DCC702442B2DE2D5005162CA /* Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC702432B2DE2D5005162CA /* Instantiable.swift */; };
 		DCC702472B2DE2E1005162CA /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC702452B2DE2E1005162CA /* UIStoryboard+Extension.swift */; };
 		DCC702482B2DE2E1005162CA /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC702462B2DE2E1005162CA /* Collection+Extension.swift */; };
+		DCEA93842B3494840024CE0E /* Doc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DCEA93832B3494840024CE0E /* Doc.pdf */; };
+		DCEA93862B349EDC0024CE0E /* Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCEA93852B349EDC0024CE0E /* Photo.jpg */; };
 		DCFD7FCD2B2B7FE200D64476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD7FCC2B2B7FE200D64476 /* AppDelegate.swift */; };
 		DCFD7FCF2B2B7FE200D64476 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD7FCE2B2B7FE200D64476 /* SceneDelegate.swift */; };
 		DCFD7FD12B2B7FE200D64476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD7FD02B2B7FE200D64476 /* ViewController.swift */; };
@@ -19,9 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC1792222B31FFD000A7E299 /* UIView + TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + TapGesture.swift"; sourceTree = "<group>"; };
 		DCC702432B2DE2D5005162CA /* Instantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiable.swift; sourceTree = "<group>"; };
 		DCC702452B2DE2E1005162CA /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
 		DCC702462B2DE2E1005162CA /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		DCEA93832B3494840024CE0E /* Doc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Doc.pdf; sourceTree = "<group>"; };
+		DCEA93852B349EDC0024CE0E /* Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo.jpg; sourceTree = "<group>"; };
 		DCFD7FC92B2B7FE200D64476 /* QuickLookExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickLookExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFD7FCC2B2B7FE200D64476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCFD7FCE2B2B7FE200D64476 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				DCFD7FD52B2B7FE300D64476 /* Assets.xcassets */,
+				DCEA93852B349EDC0024CE0E /* Photo.jpg */,
+				DCEA93832B3494840024CE0E /* Doc.pdf */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -88,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				DCC702462B2DE2E1005162CA /* Collection+Extension.swift */,
+				DC1792222B31FFD000A7E299 /* UIView + TapGesture.swift */,
 				DCC702452B2DE2E1005162CA /* UIStoryboard+Extension.swift */,
 			);
 			path = Extensoins;
@@ -190,7 +199,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEA93862B349EDC0024CE0E /* Photo.jpg in Resources */,
 				DCFD7FD92B2B7FE300D64476 /* LaunchScreen.storyboard in Resources */,
+				DCEA93842B3494840024CE0E /* Doc.pdf in Resources */,
 				DCFD7FD62B2B7FE300D64476 /* Assets.xcassets in Resources */,
 				DCFD7FD42B2B7FE200D64476 /* Main.storyboard in Resources */,
 			);
@@ -203,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1792232B31FFD000A7E299 /* UIView + TapGesture.swift in Sources */,
 				DCFD7FD12B2B7FE200D64476 /* ViewController.swift in Sources */,
 				DCC702482B2DE2E1005162CA /* Collection+Extension.swift in Sources */,
 				DCFD7FCD2B2B7FE200D64476 /* AppDelegate.swift in Sources */,
