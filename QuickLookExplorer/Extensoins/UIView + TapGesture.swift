@@ -13,7 +13,7 @@ extension UIView {
 
     /// Adds a tap gesture recognizer to the view and executes the closure when tapped.
     /// - Parameter action: A closure to be executed on tap.
-    func onClick(action: @escaping () -> Void) {
+    func onClick(action: @escaping (UIView) -> Void) {
         isUserInteractionEnabled = true
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap))
         addGestureRecognizer(tapGestureRecognizer)
@@ -21,7 +21,7 @@ extension UIView {
     }
     
     @objc private func handleTap() {
-        guard let tapAction = objc_getAssociatedObject(self, &tapActionKey) as? () -> Void else { return }
-        tapAction()
+        guard let tapAction = objc_getAssociatedObject(self, &tapActionKey) as? (UIView) -> Void else { return }
+        tapAction(self)
     }
 }

@@ -10,8 +10,22 @@ import QuickLook
 
 class ViewController: UIViewController {
     
+    enum MessageType {
+        case text(String)
+        case image(String)
+        case doc(String)
+    }
+    
+    var messages: [MessageType] = [
+        .text("Hello, this is a text message."),
+        .image("Photo"),
+        .doc("Doc")
+    ]
+    
+
     // MARK: - Outlets
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var docImageView: UIImageView!
     
     // MARK: - Life cycle
     override func viewDidLoad() {
@@ -20,48 +34,59 @@ class ViewController: UIViewController {
 
         attachOnClicks()
     }
-    
+
 }
 
 // MARK: - Setup
 extension ViewController {
-    
+
     func attachOnClicks() {
         imageView.onClick(action: onClickImage)
+        docImageView.onClick(action: onClickImage)
     }
 }
 
 // MARK: - Actions
 extension ViewController {
     
-    func onClickImage() {
-        print("Image Tapped")
-        let previewController = QLPreviewController()
-        previewController.dataSource = self
-        present(previewController, animated: true)
+    func onClickImage(_ sender: Any) {
+        let tag = (sender as! UIImageView).tag
+        let message = messages[tag]
+
+        switch message {
+        case let .image(imageName):
+            guard let fileURL = Bundle.main.url(forResource: imageName, withExtension: "jpg") else { return }
+            presentQuickLook(with: fileURL)
+
+        case let .doc(docName):
+            guard let fileURL = Bundle.main.url(forResource: docName, withExtension: "pdf") else { return }
+            presentQuickLook(with: fileURL)
+        default:
+            break
+        }
     }
-    
 }
 
 // MARK: - QLPreviewControllerDataSource
-extension ViewController: QLPreviewControllerDataSource {
+
+var previewItems: [QLPreviewItem] = []
+extension ViewController: QLPreviewControllerDataSource, QLPreviewControllerDelegate {
+
     func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
-        return 1
+        return previewItems.count
     }
-    
+
     func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
-        guard let image = UIImage(named: "Photo") else { fatalError("Could not load Photo.png from Assets") }
-        // Save the image to a temporary file
-        let temporaryDirectory = FileManager.default.temporaryDirectory
-        let imageUrl = temporaryDirectory.appendingPathComponent("Photo.png")
-        
-        do {
-            try image.pngData()?.write(to: imageUrl)
-        } catch {
-            fatalError("Error saving image to temporary file: \(error)")
-        }
-        
-        return imageUrl as QLPreviewItem
+        return previewItems[index]
+    }
+
+    func presentQuickLook(with fileURL: URL) {
+        let previewController = QLPreviewController()
+        previewController.dataSource = self
+        previewController.delegate = self
+
+        // Pass the file name as a preview item
+        previewItems = [fileURL as QLPreviewItem]
+        present(previewController, animated: true, completion: nil)
     }
 }
-

@@ -3,4 +3,258 @@
    uuid = "D46E3661-9FB7-4D34-BF4C-78F2BD419150"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DEB5715-A0E4-4893-A5A7-DAED5D5373F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickLookExplorer/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "onClickImage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9DEB5715-A0E4-4893-A5A7-DAED5D5373F5 - 11a514609de7b9a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(Any) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "9DEB5715-A0E4-4893-A5A7-DAED5D5373F5 - 11a514609de7b9a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(Any) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78B82B76-4051-4890-A996-DC4209D81864"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickLookExplorer/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "onClickImage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "78B82B76-4051-4890-A996-DC4209D81864 - 11a514609de7b935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(Any) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1400">
+               </Location>
+               <Location
+                  uuid = "78B82B76-4051-4890-A996-DC4209D81864 - 11a514609de7b935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(Any) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63DB76E1-0488-4883-BC2D-EA5F84DF9A77"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickLookExplorer/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "onClickImage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "63DB76E1-0488-4883-BC2D-EA5F84DF9A77 - 11a514609de7ba4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(Any) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "63DB76E1-0488-4883-BC2D-EA5F84DF9A77 - 11a514609de7ba4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(Any) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "63DB76E1-0488-4883-BC2D-EA5F84DF9A77 - 11a514609de7ba4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(Any) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "63DB76E1-0488-4883-BC2D-EA5F84DF9A77 - 11a514609de7ba4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(Any) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "660">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1A3F42F-215E-46D7-B773-D16831E8079D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuickLookExplorer/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "onClickImage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F1A3F42F-215E-46D7-B773-D16831E8079D - e2e71b523c716a13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(__C.UIImageView) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "F1A3F42F-215E-46D7-B773-D16831E8079D - f8ba2652ed26570b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(__C.UIView) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "F1A3F42F-215E-46D7-B773-D16831E8079D - 11a514609de7bac2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(Any) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "F1A3F42F-215E-46D7-B773-D16831E8079D - 11a514609de7bac2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuickLookExplorer.ViewController.onClickImage(Any) -&gt; ()"
+                  moduleName = "QuickLookExplorer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/masadchattha/Documents/Development/iOS/Code/Projects/Tutorial%20Projects/QuickLookExplorer/QuickLookExplorer/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
